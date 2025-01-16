@@ -30,6 +30,10 @@
     background-image: url(./resources/images/developer.png), url(./resources/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
+    margin-top: -50px;
+    padding-bottom: 10px;
+    
 }
 
 /* nav styles */
@@ -63,10 +67,13 @@ nav ul{
 .bnh1{
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 2px;
 }
 .bnh2{
     font-size: 65px;
     font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .profile{
     width:580px;
