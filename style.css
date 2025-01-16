@@ -26,6 +26,11 @@
     
 
 }
+.top{
+    background-image: url(./resources/images/developer.png), url(./resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 /* nav styles */
 nav{
@@ -53,4 +58,25 @@ nav ul{
     display: flex;
     align-items: center;
 
+}
+
+.bnh1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.bnh2{
+    font-size: 65px;
+    font-weight: bold;
+}
+.profile{
+    width:580px;
+    margin-bottom: -5px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
 }
